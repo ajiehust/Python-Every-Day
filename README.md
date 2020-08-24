@@ -117,7 +117,8 @@ print(id(a)) # 4362993544
 
 ## 002、类的定义和装饰器@classmethod与@staticmethod
 
-参考此文：https://mp.weixin.qq.com/s/t1T_K5wbovOAIdzgKjIwhg
+@staticmethod不需要表示自身对象的self和自身类的cls参数，就跟使用函数一样。
+@classmethod也不需要self参数，但第一个参数需要是表示自身类的cls参数。
 
 
 
